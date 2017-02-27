@@ -21,10 +21,10 @@
 ```
 ## To make this work:
 
-# you need to install the node modules since we don't store them on github
+### you need to install the node modules since we don't store them on github
 $ npm install
 
-# Then you need to open 4 seperate terminals from the projects root directory
+### Then you need to open 4 seperate terminals from the projects root directory
 1. ## Python: start the python script to activate the API and pass variables to and from the MongoDB via PyMongo
 
 			$ python run.py
