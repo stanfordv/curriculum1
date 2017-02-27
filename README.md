@@ -19,16 +19,17 @@
   ]
 }
 ```
+## To make this work:
 
-To make this work, you need to install the node modules since we don't store them on github
+# you need to install the node modules since we don't store them on github
 $ npm install
 
-Then you need to open 4 seperate terminals from the projects root directory
-1. ## start the python script to activate the API and pass variables to and from the MongoDB via PyMongo
+# Then you need to open 4 seperate terminals from the projects root directory
+1. ## Python: start the python script to activate the API and pass variables to and from the MongoDB via PyMongo
 
 			$ python run.py
 
-2. ## (if installed globally, not necessary to run from the project directory)
+2. ## Mongo db: (Nb. if installed globally, not necessary to run from the project directory)
 
 			$ mongodb 
 
@@ -46,6 +47,6 @@ Then you need to open 4 seperate terminals from the projects root directory
 			$ npm run dev-server
 
 
-To see directly into the db, you will need a 5th terminal
+## Manual mango tweaking: To see directly into the db, you will need a 5th terminal
 			$ mongo
 
